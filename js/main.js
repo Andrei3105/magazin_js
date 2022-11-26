@@ -215,11 +215,11 @@ showContent();
 					margin: 0 auto;
 				`;
 				form.insertAdjacentElement('afterend', statusMessage);
-				
+
 				const request = new XMLHttpRequest();
 				request.open("POST", "server.php");
 				/**
-				 * Из-за того что по умолчанию XMLHttpRequest по умолчанию отправляет 
+				 * Из-за того что по умолчанию XMLHttpRequest отправляет 
 				 * в multipart/form-data то не нужно прописывть в заголовке иначе 
 				 * ничего не отправится
 				 */
