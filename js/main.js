@@ -273,4 +273,8 @@ showContent();
 				closeModal();
 			});
 		}
+
+		//тест
+		const formData = new FormData(form);
+		const json = JSON.stringify(Object.fromEntries(formData.entries()));
 });
